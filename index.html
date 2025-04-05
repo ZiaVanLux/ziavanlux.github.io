@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zia Van Lux | Creative Director & Brand Strategist</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; }
+        header { background: #000; color: #fff; padding: 20px; text-align: center; }
+        nav { display: flex; justify-content: center; padding: 10px; background: #fff; box-shadow: 0px 2px 5px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
+        nav a { margin: 0 10px; text-decoration: none; color: #333; font-weight: bold; padding: 10px; transition: color 0.3s ease-in-out; }
+        nav a:hover { color: #000; }
+        .container { width: 90%; max-width: 1200px; margin: auto; padding: 20px; }
+        .section { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .portfolio { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .portfolio-item { overflow: hidden; border-radius: 8px; transition: transform 0.3s ease-in-out; }
+        .portfolio-item img { width: 100%; border-radius: 8px; }
+        .portfolio-item:hover { transform: scale(1.05); }
+        .testimonial { font-style: italic; margin: 20px 0; padding: 10px; border-left: 4px solid #000; background: #f9f9f9; }
+        .cta { text-align: center; margin-top: 30px; }
+        .cta a { background: #000; color: #fff; padding: 15px 25px; text-decoration: none; font-weight: bold; border-radius: 5px; transition: background 0.3s ease-in-out; }
+        .cta a:hover { background: #333; }
+        footer { background: #222; color: #fff; text-align: center; padding: 10px; margin-top: 20px; }
+        @media (max-width: 768px) {
+            nav { flex-direction: column; align-items: center; }
+            .portfolio { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zia Van Lux</h1>
+        <p>Creative Director | Brand Strategist | Marketing Innovator</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#work">Work</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Zia Van Lux is an award-winning creative leader with over a decade of experience in brand strategy, advertising, and digital innovation. Known for high-impact, consumer-driven solutions, Zia has shaped cultural narratives and transformative campaigns for top global brands.</p>
+        </section>
+        <section id="expertise" class="section">
+            <h2>Core Expertise</h2>
+            <ul>
+                <li>Creative & Brand Leadership</li>
+                <li>Sustainability & Innovation</li>
+                <li>Consumer Insight & Behavioral Design</li>
+                <li>Digital & Integrated Campaigns</li>
+                <li>Leadership & Team Development</li>
+            </ul>
+        </section>
+        <section id="work" class="section">
+            <h2>Notable Work</h2>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img src="https://ziavanlux.myportfolio.com/images/project1.jpg" alt="Project 1">
+                    <p>Project Title 1</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://ziavanlux.myportfolio.com/images/project2.jpg" alt="Project 2">
+                    <p>Project Title 2</p>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials" class="section">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"Zia's visionary approach transformed our brand presence. Her strategic insights and creative execution are unparalleled." - Client A</p>
+            </div>
+            <div class="testimonial">
+                <p>"Working with Zia was a game-changer for our marketing campaigns. Her leadership and innovative ideas led to outstanding results." - Client B</p>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Let's Work Together</h2>
+            <p>Interested in brand consulting, masterclasses, or high-level creative strategy? Let’s connect.</p>
+            <div class="cta">
+                <a href="mailto:contact@ziavanlux.com">Get in Touch</a>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Zia Van Lux. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
